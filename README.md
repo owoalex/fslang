@@ -12,7 +12,7 @@ Variables die with their function if defined locally though!
 `/foo.func = {
 ./bar.float = 0.03;
 -- e.g. /proc/self == 3
-};
+};`
 
 
--- /proc/3/bar.float == undefined`
+`-- /proc/3/bar.float == undefined`
